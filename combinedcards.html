@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS</title>
+</head>
+<body>
+  <style>
+    body{
+      background-color:#ffffff;
+    }
+    * {
+      padding:0;
+      margin:0;
+      box-sizing:border-box;
+      font-family: Metropolis;
+      border:none;
+      outline: none;
+    }
+    .parent{
+      display: flex;
+      flex-direction: row;
+    }
+    .card-container {
+      min-height:500px;
+      background-color:white;
+    }
+    .card-one {
+      max-width: 300px;
+      height: 380px;
+      background-color: #ffffff;
+      position:relative;
+      border-radius:10px;
+    }
+    .banner {
+      border-radius:10px;
+      width:100%;
+    }
+    .card-body{
+      text-align: center;
+      font-weight:bold;
+    }
+    .date{
+      background-color: crimson;
+      color: #ffffff;
+      width: 45px;
+      height: 45px;
+      padding:10px;
+      border-radius: 50%;
+      text-align: center;
+      font-weight: 900;
+      font-size: 0.8rem;
+      position: absolute;
+      right:10px;
+      top:10px;
+      
+    }
+    .travel {
+      font-size:20px;
+      background-color:red;
+      color:white;
+      border-radius:10px;
+      position:relative;
+      width:auto;
+      margin:0px auto;
+      padding:5px;
+      display: block;
+      top:15px;
+    }
+    .card-container1 {
+      min-height:500px;
+      background-color:white;
+    }
+    .card-one1 {
+      max-width: 300px;
+      height: 380px;
+      background-color: #ffffff;
+      position:relative;
+      border-radius:10px;
+    }
+    .banner1 {
+      border-radius:10px;
+      width:100%;
+    }
+    .card-body1 {
+      text-align: center;
+      font-weight:bold;
+    }
+    .date1 {
+      background-color: crimson;
+      color: #ffffff;
+      width: 45px;
+      height: 45px;
+      padding:10px;
+      border-radius: 50%;
+      text-align: center;
+      font-weight: 900;
+      font-size: 0.8rem;
+      position: absolute;
+      right:10px;
+      top:10px;
+      
+    }
+    .travel1 {
+      font-size:20px;
+      background-color:red;
+      color:white;
+      border-radius:10px;
+      position:relative;
+      width:auto;
+      margin:0px auto;
+      padding:5px;
+      display: block;
+      top:15px;
+    }
+  </style>
+  <div class="parent">
+    <div class="card container">
+      <div class="card-one">
+        <div class="date">11<sup>th</sup></div>
+         <img class="banner" src="https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_960_720.jpg"/>
+  
+          <div class="card-body">
+           <h2>Paris</h2>
+          <div>
+            <small>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsum tempore repudiandae architecto inventore voluptatibus distinctio sint modi commodi minus consequatur, sequi eos rerum, eaque beatae non. Ipsa, iusto cumque.
+            </small>
+          </div>
+         </div>
+     <button class="travel">Visit Paris</button>
+  </div>
+</div>
+<div class="card container1">
+  <div class="card-one1">
+    <div class="date1">12<sup>th</sup></div>
+  <img class="banner1" src="https://cdn.pixabay.com/photo/2015/10/27/16/39/taj-mahal-1009262_960_720.jpg"/>
+
+  <div class="card-body1">
+    <h2>Taj Mahal</h2>
+    <div>
+      <small>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsum tempore repudiandae architecto inventore voluptatibus distinctio sint modi commodi minus consequatur, sequi eos rerum, eaque beatae non. Ipsa, iusto cumque.
+      </small>
+    </div>
+  </div>
+   <button class="travel1">Visit Tajmahal</button>
+  </div>
+</div>
+</div>
+</body>
+</html>
